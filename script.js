@@ -16,14 +16,11 @@ if (idade >=13) {
         `)
     nomeVerificada = prompt("Digite seu nome: ")
     senhaVerificada = prompt("Digite sua senha: ")
-    if (nomeVerificada == nome && senhaVerificada === senha)
+    if (nomeVerificada === nome && senhaVerificada === senha)
         // faz o login do usuário
         {
         alert(`
             --- Login ---
-            Nome: ${nome}
-            Senha: ${senha}
-
             Login realizado com sucesso! Bem-vindo, ${nome}
             `)
     } //mostra que o usuário consegiu fazer o login
@@ -32,10 +29,6 @@ if (idade >=13) {
 else {
     alert(`
         --- Cadastro de Usuário ---
-        Digite seu nome: ${nome}
-        Digite sua idade: ${idade}
-        Digite uma senha: ${senha}
-
         Você não pode se cadastrar. Idade mínima: 13 anos.
 `)
 }//diz ao usuário que não é possível fazer o cadastro   
