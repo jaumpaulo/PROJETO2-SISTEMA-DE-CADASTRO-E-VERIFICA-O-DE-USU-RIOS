@@ -3,10 +3,6 @@ let idade = parseInt(prompt("Digite sua idade: "))
 const senha = prompt("Digite sua senha: ")
 //inicio do cadastro
 
-let senhaVerificada
-let nomeVerificada
-//variaveis para identificar 
-
 if (idade >=13) {
     alert(`
         --- Cadastro de Usuário ---
@@ -14,10 +10,10 @@ if (idade >=13) {
         Digite sua idade: ${idade}
         Digite uma senha: ${senha}
         `)
-    nomeVerificada = prompt("Digite seu nome: ")
-    senhaVerificada = prompt("Digite sua senha: ")
+    let nomeVerificada = prompt("Digite seu nome: ")
+    let senhaVerificada = prompt("Digite sua senha: ")
     if (nomeVerificada === nome && senhaVerificada === senha)
-        // faz o login do usuário
+        //verifica se a senha e o nome são iguais e faz o login do usuário
         {
         alert(`
             --- Login ---
