@@ -6,9 +6,8 @@ const senha = prompt("Digite sua senha: ")
 if (idade >=13) {
     alert(`
         --- Cadastro de Usuário ---
-        Digite seu nome: ${nome}
-        Digite sua idade: ${idade}
-        Digite uma senha: ${senha}
+        Seu nome: ${nome}
+        Sua idade: ${idade}
         `)
     let nomeVerificada = prompt("Digite seu nome: ")
     let senhaVerificada = prompt("Digite sua senha: ")
